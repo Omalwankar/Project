@@ -1,0 +1,26 @@
+import javax.swing.JFrame;
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class View extends JFrame
+{
+	
+	
+	public View()
+	{
+		super("Racing Game");
+		setSize(800,830);
+		setVisible(true);
+	}
+	
+	public void paint(Graphics g)
+	{
+		g.setColor(Color.GREEN); // background
+		g.fillRect(0,0,800,830);
+		g.setColor(Color.BLACK); // starting to make the track
+		g.fillRect(50,50,100,780); // want to make a 50 green border around the black race track
+		g.fillRect(50,50,700,100);
+		g.fillRect(650,50,100,780);
+		
+	}
+}
