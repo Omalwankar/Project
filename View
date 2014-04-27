@@ -4,12 +4,13 @@ import java.awt.Graphics;
 
 public class View extends JFrame
 {
-	
+	Car myself
 	
 	public View()
 	{
 		super("Racing Game");
 		setSize(800,830);
+		myself = new Car(50,250);
 		setVisible(true);
 	}
 	
