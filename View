@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class View extends JFrame
+public class View extends JFrame implements KeyListener
 {
 	Car myself
 	
@@ -23,5 +23,23 @@ public class View extends JFrame
 		g.fillRect(50,50,700,100);
 		g.fillRect(650,50,100,780);
 		
+	}
+	
+	public void keyPressed(keyevent arg0)
+	{
+	 if(e.getKeyCode() == KeyEvent.VK_LEFT)
+	 {
+	 
+	 }
+	}
+	
+	public void keyReleased(KeyEvent e)
+	{
+	
+	}
+	
+	public void keyTyped(KeyEvent e)
+	{
+	
 	}
 }
