@@ -42,4 +42,9 @@ public class View extends JFrame implements KeyListener
 	{
 	
 	}
+	
+	public void paintCar(Graphics g)
+	{
+	
+	}
 }
